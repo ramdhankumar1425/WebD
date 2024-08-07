@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualiser</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="NavBarStyle.css" />
+    <link rel="stylesheet" href="BarStyle.css" />
+  </head>
+  <body>
+    <!-- Navigation bar starts -->
+    <nav>
+      <div class="navigation-bar">
+        <h1>Sorting Visualiser</h1>
+        <!-- Menus starts -->
+        <div class="menus">
+          <div class="playIcon"><i class="fa-solid fa-play"></i></div>
+          <div class="algoSelector">
+            <p>Select algorithm</p>
+            <select name="Algo">
+              <option value="BubbleSort" selected>Bubble Sort</option>
+              <option value="SelectionSort">Selection Sort</option>
+              <option value="InsertionSort">Insertion Sort</option>
+              <option value="MergeSort">Merge Sort</option>
+              <option value="QuickSort">Quick Sort</option>
+            </select>
+          </div>
+          <div class="speedController">
+            <p>Speed</p>
+            <select name="speed" id="speed">
+              <!-- <option value="SuperSlow">Super Slow</option> -->
+              <option value="Slow">Slow</option>
+              <option value="Medium" selected>Medium</option>
+              <option value="Fast">Fast</option>
+              <!-- <option value="SuperFast">Super Fast</option> -->
+            </select>
+          </div>
+          <div class="sizeSelector">
+            <p>Size of array</p>
+            <input type="range" min="5" max="100" value="30" id="inputSize" />
+          </div>
+        </div>
+        <!-- Menus ends -->
+      </div>
+    </nav>
+    <!-- Nav bar ends -->
+
+    <!-- Bars Section Starts -->
+    <div class="barsSection">
+      <div class="barsDiv"></div>
+    </div>
+    <!-- Bars Section Ends -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-bar {
+  display: flex;
+  background-color: #242529;
+  color: #fff;
+  min-height: 10vh;
+  max-height: 10vh;
+  min-width: 95vw;
+}
+
+.menus {
+  margin-left: 10vw;
+  display: flex;
+  gap: 3.3vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.menus div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+  font-size: 1.1rem;
+}
+
+.navigation-bar h1 {
+  font-size: 2rem;
+  padding: 0.5em;
+  margin-left: 1.008rem;
+  cursor: pointer;
+}
+
+.playIcon:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.menus select {
+  border: none;
+  background-color: #493c3c;
+  color: white;
+  padding: 0.45rem;
+  border-radius: 0.6rem;
+}
+
+.menus option {
+  opacity: 0.1;
+}
+
+#inputSize {
+  appearance: none;
+  background-color: #493c3c;
+  border-radius: 0.7rem;
+}
+
+.menus select,
+input {
+  cursor: pointer;
+}

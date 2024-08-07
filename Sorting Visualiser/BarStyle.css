@@ -1,0 +1,21 @@
+.barsSection {
+  background-color: #493c3c;
+  min-height: 90vh;
+  max-height: 90vh;
+  min-width: 95vw;
+}
+
+.barsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  min-height: 90vh;
+  max-height: 90vh;
+}
+
+.barsDiv div {
+  background-color: aqua;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-top: 2px;
+}
